@@ -59,3 +59,11 @@ var start = function() {
 
   document.body.textContent = 'We made it!';
 }
+
+// Wanna try debugging on something else?
+var sum = 0;
+var scores = [1, '2', {score: 7}, [8], {score: '9'}, {}, [], 3];
+// Use debugger to properly sum all the numbers
+scores.forEach(function(score) {
+  sum += score;
+});
